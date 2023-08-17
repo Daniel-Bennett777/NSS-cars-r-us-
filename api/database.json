@@ -1,0 +1,113 @@
+{
+  "paintColors": [
+    {
+      "id": 1,
+      "name": "Silver",
+      "price": 1000
+    },
+    {
+      "id": 2,
+      "name": "Midnight Blue",
+      "price": 1200
+    },
+    {
+      "id": 3,
+      "name": "Firebrick Red",
+      "price": 1100
+    },
+    {
+      "id": 4,
+      "name": "Spring Green",
+      "price": 1050
+    }
+  ],
+  "interiorOptions": [
+    {
+      "id": 1,
+      "name": "Beige Fabric",
+      "price": 800
+    },
+    {
+      "id": 2,
+      "name": "Charcoal Fabric",
+      "price": 850
+    },
+    {
+      "id": 3,
+      "name": "White Leather",
+      "price": 1200
+    },
+    {
+      "id": 4,
+      "name": "Black Leather",
+      "price": 1100
+    }
+  ],
+  "techPackages": [
+    {
+      "id": 1,
+      "name": "Basic Package",
+      "price": 500
+    },
+    {
+      "id": 2,
+      "name": "Navigation Package",
+      "price": 1200
+    },
+    {
+      "id": 3,
+      "name": "Visibility Package",
+      "price": 900
+    },
+    {
+      "id": 4,
+      "name": "Ultra Package",
+      "price": 2000
+    }
+  ],
+  "wheelOptions": [
+    {
+      "id": 1,
+      "name": "17-inch Pair Radial",
+      "price": 600
+    },
+    {
+      "id": 2,
+      "name": "17-inch Pair Radial Black",
+      "price": 650
+    },
+    {
+      "id": 3,
+      "name": "18-inch Pair Spoke Silver",
+      "price": 900
+    },
+    {
+      "id": 4,
+      "name": "18-inch Pair Spoke Black",
+      "price": 950
+    }
+  ],
+  "orders": [
+    {
+      "paintColorId": 3,
+      "interiorOptionId": 2,
+      "techPackageId": 3,
+      "wheelOptionId": 2,
+      "id": 1
+    },
+    {
+      "paintColorId": 4,
+      "interiorOptionId": 2,
+      "techPackageId": 2,
+      "wheelOptionId": 2,
+      "id": 2
+    },
+    {
+      "paintColorId": 3,
+      "interiorOptionId": 1,
+      "techPackageId": 4,
+      "wheelOptionId": 1,
+      "id": 3
+    }
+  ]
+}
