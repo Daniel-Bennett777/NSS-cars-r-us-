@@ -3,6 +3,7 @@ import { SaveOrder } from "./orderButton.js"
 import { Orders } from "./orderlist.js"
 import { paintOptions } from "./paints.js"
 import { techPackage } from "./tech.js"
+import { CarTypeOptions } from "./types.js"
 import { wheelOption } from "./wheels.js"
 
 const container = document.querySelector("#container")
@@ -12,6 +13,7 @@ const render = async() => {
     const interiorOptionHTML = await interiorOptions()
     const techOptionsHTML = await techPackage()
     const wheelOptionsHTML = await wheelOption()
+    const typeOptions = await CarTypeOptions()
     const buttonHTML = await SaveOrder()
     const orderHTML = await Orders()
     const composedHTML = `
@@ -44,6 +46,7 @@ const render = async() => {
             </section>
 
         </article>
+        ${typeOptions}
         <article class="order">
                 ${buttonHTML}
         </article>

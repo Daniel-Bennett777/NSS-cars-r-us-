@@ -108,6 +108,54 @@
       "techPackageId": 4,
       "wheelOptionId": 1,
       "id": 3
+    },
+    {
+      "paintColorId": 1,
+      "interiorOptionId": 1,
+      "techPackageId": 1,
+      "wheelOptionId": 1,
+      "carType": "car",
+      "id": 4
+    },
+    {
+      "paintColorId": 1,
+      "interiorOptionId": 1,
+      "techPackageId": 1,
+      "wheelOptionId": 1,
+      "carType": "truck",
+      "id": 5
+    },
+    {
+      "paintColorId": 1,
+      "interiorOptionId": 1,
+      "techPackageId": 1,
+      "wheelOptionId": 1,
+      "carType": "truck",
+      "id": 6
+    },
+    {
+      "paintColorId": 1,
+      "interiorOptionId": 1,
+      "techPackageId": 1,
+      "wheelOptionId": 1,
+      "carType": "truck",
+      "id": 7
+    },
+    {
+      "paintColorId": 1,
+      "interiorOptionId": 1,
+      "techPackageId": 1,
+      "wheelOptionId": 1,
+      "carType": "suv",
+      "id": 8
+    },
+    {
+      "paintColorId": 1,
+      "interiorOptionId": 1,
+      "techPackageId": 1,
+      "wheelOptionId": 1,
+      "carType": "suv",
+      "id": 9
     }
   ]
 }
